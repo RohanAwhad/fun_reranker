@@ -34,6 +34,8 @@ class ReRankResponse(BaseModel):
 
 @app.post("/rerank", response_model=ReRankResponse)
 async def rerank(request: ReRankRequest):
+    print(f"Query: {request.query}")
+    print(f"Passages: {request.passages}")
     features = tokenizer(
         [request.query] * len(request.passages),
         request.passages,

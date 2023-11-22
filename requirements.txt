@@ -3,4 +3,4 @@ uvicorn
 pydantic
 gunicorn
 torch
-transformers
+transformers==4.31.0
