@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+gunicorn
+torch
+transformers
