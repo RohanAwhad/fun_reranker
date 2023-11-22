@@ -2,5 +2,4 @@ fastapi
 uvicorn
 pydantic
 gunicorn
-torch
 transformers==4.31.0
