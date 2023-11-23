@@ -1,5 +1,4 @@
 fastapi
-uvicorn
 pydantic
 gunicorn
 transformers==4.31.0
