@@ -3,3 +3,4 @@ uvicorn
 pydantic
 gunicorn
 transformers==4.31.0
+torch==2+cpu
