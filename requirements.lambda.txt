@@ -1,0 +1,4 @@
+pydantic
+transformers==4.31.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.1+cpu
